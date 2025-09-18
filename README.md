@@ -18,6 +18,7 @@ A **Wedding Photography** web application with **frontend UI**, **backend integr
 
 ## 📂 Project Structure
 wedding-photography/
+
 │── home.html
 │── home.css
 │── gallery.html
