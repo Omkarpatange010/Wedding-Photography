@@ -1,0 +1,195 @@
+@import url("http://font.googleapis.com/css2?family=DM+Sans:weight@400;700&family=Forum&disply=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'DM sans',sans-serif;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+html{
+    font-size: 68.5%;
+    overflow-x:hidden;
+    scroll-padding-top:9rem;
+    scroll-behavior: smooth;
+ }
+  
+ section{
+    padding: 5rem 7%;
+ }
+
+ 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(Photo/Shreenath/_DSC0974.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    
+.wrapper {
+    width: 420px;
+    background:transparent;
+    border:2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(20px);
+    color:#fff;
+    border-radius:10px;
+    padding: 30px 40px; 
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width:100%;
+    height:50px;
+    margin:30px 0;  
+}
+
+.input-box input{
+    width:100%;
+    height:100%;
+    background:transparent;
+    outline:none;
+    border:none;
+    border:2px solid rgba(255,255,255, .2);
+    border-radius:40px;
+    font-size: 16px;
+    color:#fff;
+    padding:20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color:#fff;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform:translate(-50%);
+    font-size:20px;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+    color:aqua;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor:pointer;
+    font-size:16px;
+    color:#333;
+    font-weight:700;
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+}
+
+.register-link p a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover{
+    text-decoration: underline;
+    color:aqua;
+}
+
+
+
+
+.header{
+    position: fixed;
+    top:0; left: 0; right: 0;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20 px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 40px;
+    
+ }
+ .header .logo{
+    font-size: 2.8rem;
+    font-weight: bolder;
+    color: white;
+ 
+ }
+ 
+ .header .logo i{
+    color: var(--primary-color);
+    padding-right: .5rem;
+ }
+ 
+ 
+ .header i{
+    text-align:right;
+ }
+ 
+ .header .navbar a{
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin: 0 1rem;
+    padding-block: 2rem;
+    
+ }
+ .header .navbar a:hover{
+    color: aqua;
+ }
+ 
+ .home{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    background:url(../images\ \(2\).jfif) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+  
+ .home .content{
+    max-width: 50rem;
+ }
+ 
+ .home .content h3{
+    font-size: 5rem;
+    color: white;
+    line-height: 1.2;
+ }
+

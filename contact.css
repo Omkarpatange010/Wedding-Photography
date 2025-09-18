@@ -1,0 +1,153 @@
+#{
+    font-family: 'Robot',sans-serif;
+   }
+  
+  
+  body
+  {
+   margin: 0%;
+   padding: 0%;
+   background-color: silver;
+   box-sizing: border-box;
+  }
+  
+  nav{
+   display:flex;
+   justify-content: space-between;
+   background-color:black;
+   color:white;
+   width: 100%;
+   top: 0%;
+   width: 100%;
+  }
+  .logo{
+   width: 190px;
+   height: 60px;
+   padding-left: 25px;
+  }
+  .logo img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+
+  }
+  nav ul{
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+  }
+  ul li{
+   list-style:none;
+  }
+  ul li a{
+   text-decoration: none;
+   margin-inline: 20px;
+   color: white;
+  } 
+  ul li a:hover,ul li a.active{
+   color: aqua;
+  }
+ 
+  .full{
+   max-width:960px;
+   margin:0 auto;
+  
+   
+}
+.Contact-Form{
+   width:100%;
+   margin:0 auto;
+   text-align:center;
+   margin-top:50px;
+}
+.Contact-Form h2{
+   color:#ffffff;
+   text-transform:capitalize;
+   margin-bottom:20px;
+   font-size:30px;
+}
+.Contact-Form p{
+   color:#9999B9;
+   margin-bottom:50px;
+}
+.input-fields{
+   width:45%;
+   float:left;
+   overflow:hidden;
+   margin-right:30px;
+   margin-top: 50px;
+}
+.input-fields input{
+    width:354px;
+    padding:15px 20px;
+    margin-bottom:20px;
+    border:0;
+    border-radius:3px ;
+ }
+.msg{
+   width:45%;
+   overflow:hidden;
+   margin-top: 70px;
+}
+.msg textarea{
+   width:354px;
+    padding:10px 20px;
+    margin-bottom:20px;
+    height:160px;
+    border:0;
+    border-radius:3px ;
+    resize:none;
+}
+.Contact-Form button{
+   padding:15px 20px;
+   color:#ffffff;
+   text-transform:uppercase;
+   border:1px solid green;
+   background:blue;
+   cursor:pointer;
+   border-radius:3px;
+   margin-right: 40px;
+    margin-top: 15px;
+}
+ .Contact-Form button:hover{
+  border:1px solid blue;
+  background:none;
+ }
+.details{
+   width: 300px;
+   height:150px;
+   color: black;
+   background:white;
+   padding:10px;
+   float:left;
+   overflow:hidden;
+   margin-right:160px;
+   margin-top:50px;
+   border-radius:3px;
+   margin-bottom:50px;
+}
+.details:last-child{
+  margin-right:0;
+}
+.details h3{
+   padding-top: 0px;
+   font-size:16px;
+   color:black;
+   font-style:normal;
+   margin-left:10px;
+   margin-bottom:20px;
+   text-transform:uppercase;
+   text-align:left;
+   
+}
+.details p{
+  font-size:13px;
+  font-family: Arial;
+   color:black;
+   font-style:normal;
+   margin:0;
+   padding:0;
+   text-align:left;
+   margin-left:10px;
+   margin-bottom:-1px;
+}

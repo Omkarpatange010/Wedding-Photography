@@ -1,0 +1,147 @@
+#{
+    font-family: 'Robot',sans-serif;
+   }
+  
+  
+  body
+  {
+   margin: 0%;
+   padding: 0%;
+   background-color: white;
+  }
+  
+  nav{
+   display:flex;
+   justify-content: space-between;
+   background-color:black;
+   color:white;
+   width: 100%;
+   top: 0%;
+   width: 100%;
+  }
+  .logo{
+    width: 190px;
+    height: 60px;
+    padding-left: 25px;
+   }
+   .logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+   }
+  nav ul{
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+  }
+  ul li{
+   list-style:none;
+  }
+  ul li a{
+   text-decoration: none;
+   margin-inline: 20px;
+   color: white;
+  } 
+  ul li a:hover,ul li a.active{
+   color: aqua;
+  }
+ .content{
+    text-align: center;
+    margin-top: 0%;
+    justify-content: space-between;
+ }
+ 
+ .content p{
+    align-items: center;
+    margin-inline: auto;
+    max-width: 900px;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+ }
+ .content img{
+    width: 170px;
+    margin-inline: auto;
+    padding-bottom: 13px;
+ }
+ .instagram h2{
+   text-align: center;
+   margin-top: 2rem;
+}
+@keyframes scroll{
+   to{
+      transform: translateX(calc(-50% - .5rem));
+   }
+}
+.instagram img{
+   height: 200px;
+   width: 400px;
+   display: flex;
+   padding-left: 30px;
+   display:flexbox;
+   width: max-content;
+   align-items: center;
+   gap: 3rem;
+   margin-top: 0rem;
+   display: inline;
+   animation: scroll 5s linear;
+   }
+
+   .footer{
+      background-color:silver;
+   }
+   .footer .container{
+      border: 0px solid;
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(22rem,1fr));
+      gap: 1rem;
+   }
+   .footer .container .box h3{
+      color:black;
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+   }
+   .footer .container .box h3 i{
+     color:black;
+   }
+   
+   .footer .container .box a{
+      display:block;
+      color:var(--white);
+      font-size: 1rem;
+      padding:1rem 0;
+   }
+   .share{
+      display: flex;
+      color: blue
+   }
+   .footer .container .box .links i{
+      color: green;
+   }
+   .footer .container .box a{
+      text-decoration: dotted;
+   }
+   .container .box  a i{
+    color:var(--green);
+    padding-right: .5rem;
+   }
+   .footer .container .box a:hover i{
+      padding-right: 2rem;
+   }
+   .footer .container .box  p{
+      line-height: 1.8;
+}
+.box .email{
+   border:100px;
+   padding: 5pxpx;
+   background-color: antiquewhite;
+   color:black;
+}
+.box .submit{
+  margin-top: 1rem;
+  padding-left: 1rem 0;
+  border: 12rem;
+  background-color: antiquewhite;
+  text-emphasis-color: white;
+}
+   

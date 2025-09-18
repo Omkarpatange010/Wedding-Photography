@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+ 
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,intial-scale=1.0">
+     <title>Photography website </title>  
+     <link rel="stylesheet" href="contact.css">
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+  </head>
+   <nav>
+      <div class="logo">
+         <img src="Photo/home.jpg">
+       </div>
+    
+ 
+  <ul>
+   <li> <a href="home.html">Home</a></li>
+   <li> <a href="gallery.html">Gallery</a></li>
+   <li> <a href="services.html">Services</a></li>
+   <li> <a href="review.html">Review</a></li>
+   <li> <a href=""class="active">Contact Us</a></li>
+   </ul>
+   </nav>
+   <form action="contact.php" method="POST">
+
+   <div class="full">
+		
+		<div class="Contact-Form">
+			<h1> Contact</h1>
+			<h3>Contact for best Design</h3>
+			<div class="input-fields">
+				<input type="text" name="name" placeholder="Your Name *" pattern="[A-Za-z\s]+" title="only Enter Alphabetical Character" required>
+				<input type="email" name="email" placeholder="Your Emaill *"required>
+				<input type="number" name="number" class="input" placeholder="Your Phone *" pattern="[0-9]{10}" required>
+				
+			</div>
+			<div class="msg">
+				<textarea placeholder="Message * required" name="msg" required></textarea>
+				
+			</div>
+			<div>
+				<button formaction="contact.php"> Send message</button>
+			</div>
+			<div class="details">
+				<h3> Contact info </h3>
+				<p> E-mail: sharayu@gmail.com</p>
+				<p> Mobile: 8010274881 </p>
+				<p> web: Photography.com </p>
+			</div>
+			<div class="details"> 
+				<h3> Working hours: 9am-4pm </h3>
+				<p> E-mail: omkar@gmail.com</p>
+				<p> Mobile: 9921765634 </p>
+				<p> web: Photography.com </p>
+			</div>			
+		</div>	
+	</div>
+   </form>
+   </html>

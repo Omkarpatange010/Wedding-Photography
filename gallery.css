@@ -1,0 +1,157 @@
+#{
+    font-family: 'Robot',sans-serif;
+   }
+  
+  
+  body
+  {
+   margin: 0%;
+   padding: 0%;
+   background-color: white;
+  }
+  
+  nav{
+   display:flex;
+   justify-content: space-between;
+   background-color:black;
+   color:white;
+   width: 100%;
+   top: 0%;
+   width: 100%;
+  }
+  .logo{
+   width: 190px;
+   height: 60px;
+   padding-left: 25px;
+  }
+  .logo img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+
+  }
+  nav ul{
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+  }
+  ul li{
+   list-style:none;
+  }
+  ul li a{
+   text-decoration: none;
+   margin-inline: 20px;
+   color: white;
+  } 
+  ul li a:hover,ul li a.active{
+   color: aqua;
+  }
+  .gallery{
+    padding-top: 10px;
+    position: relative;
+    min-height: 100vh;
+    background: #ddd;
+  }
+  .gallery h2{
+     font-size: 40px;
+     font-weight: normal;
+     color: #333;
+     text-align: center;
+     text-transform: capitalize;
+  }
+.image-container{
+     display: flex;
+     flex-wrap: wrap;
+     gap:15px;
+     justify-content: center;
+     padding: 10px;
+}
+.image-container .image{
+    height: 370px;
+    width: 350px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgb(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+.gallery .image-container .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear; 
+}
+.gallery .image-container .image:hover img{
+    transform: scale(1.1);
+} 
+.footer{
+    background-color:silver;
+ }
+ .footer .container{
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(22rem,1fr));
+    gap: 1rem;
+ }
+ .footer .container .box h3{
+    color:black;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+ }
+ .footer .container .box h3 i{
+   color:black;
+ }
+ 
+ .footer .container .box a{
+    display:block;
+    color:var(--white);
+    font-size: 1rem;
+    padding:1rem 0;
+ }
+ .share{
+    display: flex;
+    color: blue
+ }
+ .footer .container .box .links i{
+    color: green;
+ }
+ .footer .container .box a{
+    text-decoration: dotted;
+ }
+ .container .box  a i{
+  color:var(--green);
+  padding-right: .5rem;
+ }
+ .footer .container .box a:hover i{
+    padding-right: 2rem;
+ }
+ .footer .container .box  p{
+    line-height: 1.8;
+}
+.box .email{
+ border:100px;
+ padding: 5pxpx;
+ background-color: antiquewhite;
+ color:black;
+}
+.box .submit{
+margin-top: 1rem;
+padding-left: 1rem 0;
+border: 12rem;
+background-color: antiquewhite;
+text-emphasis-color: white;
+}
+ button {
+   width: 100px;
+   height: 30px;
+   border: none;
+   background-color: rgb(1, 104, 104);
+   color: white;
+   font-size: 18px;
+   margin-top: -13px;
+   cursor: pointer;
+} 
+.decor{
+   text-align: center;
+   padding-top: 15px;
+   gap:15rem;
+}
