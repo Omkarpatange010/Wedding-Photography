@@ -19,34 +19,42 @@ A **Wedding Photography** web application with **frontend UI**, **backend integr
 ## 📂 Project Structure
 wedding-photography/
 
-│── home.html
-│── home.css
-│── gallery.html
-│── gallery.css
-│── services.html
-│── services1.html
-│── services2.html
-│── services3.html
-│── services4.html
-│── services5.html
-│── services6.html
-│── services.css
-│── contact.html
-│── contact.css
-│── contact.php
-│── login.html
-│── login.css
-│── login.php
-│── registration.html
-│── payment.html
-│── payment.php
-│── successPage.html
-│── review.html
-│── review.css
-│── database.php
-│── style.css
-│── mc.png
-│── pp.png
+Wedding-Photography/
+├── frontend/
+│   ├── html/
+│   │   ├── home.html
+│   │   ├── gallery.html
+│   │   ├── services.html
+│   │   ├── services1.html
+│   │   ├── services2.html
+│   │   ├── services3.html
+│   │   ├── services4.html
+│   │   ├── services5.html
+│   │   ├── services6.html
+│   │   ├── contact.html
+│   │   ├── login.html
+│   │   ├── registration.html
+│   │   ├── payment.html
+│   │   ├── successPage.html
+│   │   └── review.html
+│   └── css/
+│       │   ├── home.css
+│       │   ├── gallery.css
+│       │   ├── services.css
+│       │   ├── contact.css
+│       │   ├── login.css
+│       │   ├── review.css
+│       │   └── style.css
+│       └── images/
+│           ├── mc.png
+│           └── pp.png
+├── backend/
+│   ├── php/
+│   │   ├── contact.php
+│   │   ├── login.php
+│   │   ├── payment.php
+│   │   └── database.php
+└── README.md
 
 
 ---
@@ -75,21 +83,16 @@ This project is deployed on **AWS Three-Tier Architecture**:
 
 ---
 
-AWS Deployment (Three-Tier)
+ AWS 3‑Tier Architecture Overview
 
-Create a VPC with public & private subnets.
+The three tiers are:
 
-Configure Route Tables, IGW, and NAT Gateway.
+Tier	Purpose	AWS Components / Characteristics
+Web / Presentation Tier	Handles incoming client requests, serves static content, TLS termination, load balancing	Public subnets, Internet Gateway, Load Balancers (ALB / ELB), Web servers (EC2 / Auto Scaling)
+Application / Logic Tier	Business logic, processing, internal APIs	Private subnets, limited inbound access (only from Web tier), NAT or outbound Internet via NAT Gateway if needed
+Database / Data Tier	Data storage, persistent databases or caches	Private subnets, highly restricted access (only from App tier), possibly multi‑AZ RDS, etc.
 
-Launch EC2 instances for frontend & backend.
 
-Deploy MySQL on AWS RDS (private subnet).
-
-Update database.php with RDS endpoint, username, and password.
-
-Attach Security Groups to allow HTTP/HTTPS and DB connections.
-
-Use CloudFront + S3 (optional) for static file hosting (images, CSS, JS).
 
 📸 Screens (Pages)
 
