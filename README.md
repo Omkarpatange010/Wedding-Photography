@@ -37,6 +37,7 @@ Wedding-Photography/
 │   │   ├── payment.html
 │   │   ├── successPage.html
 │   │   └── review.html
+
 │   └── css/
 │       │   ├── home.css
 │       │   ├── gallery.css
@@ -48,6 +49,7 @@ Wedding-Photography/
 │       └── images/
 │           ├── mc.png
 │           └── pp.png
+
 ├── backend/
 │   ├── php/
 │   │   ├── contact.php
