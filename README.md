@@ -113,7 +113,7 @@ gallery.html → Wedding gallery
 
 (photo/1.jpeg)
 gallery.html → Wedding gallery
-(photo/1.jpeg)
+
 
 ![Design](photo/gallery5.jpeg)
 ## Detail Flow
@@ -128,15 +128,6 @@ services.html → Services offered
 ![Architecture](images/4.jpeg)
 ## Design
 ![Architecture](images/5.jpeg)
-
-(photo/1.jpeg)
-## Design
-![Design](photo/2.jpeg)
-## Design
-![Design](photo/3.jpeg)
-## Design
-![Design](photo/4.jpeg)
-## Design
 contact.html → Contact form
 login.html / registration.html → User auth
 payment.html / payment.php → Payment integration
