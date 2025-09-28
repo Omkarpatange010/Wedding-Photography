@@ -104,19 +104,19 @@ Database / Data Tier	Data storage, persistent databases or caches	Private subnet
 
 home.html → Homepage
 ## 🏗️ Architecture Diagram  
-![Design](images/12.png)
+![Design](photo/1.jpeg)
 
 gallery.html → Wedding gallery
 ## Design
-![Design](photo/gallery1.jpeg)
+![Design](photo/1.jpeg)
 ## Design
-![Design](photo/gallery2.jpeg)
+![Design]![Design](photo/2.jpeg)
 ## Design
-![Design](photo/gallery3.jpeg)
+![Design]![Design](photo/3.jpeg)
 ## Design
-![Design](photo/gallery4.jpeg)
+![Design]![Design](photo/4.jpeg)
 ## Design
-![Design](photo/gallery6.jpeg)
+![Design]![Design](photo/5.jpeg)
 
 
 ## Detail Flow
