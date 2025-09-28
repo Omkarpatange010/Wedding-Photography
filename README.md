@@ -104,27 +104,24 @@ Database / Data Tier	Data storage, persistent databases or caches	Private subnet
 
 home.html → Homepage
 ## 🏗️ Architecture Diagram  
-![Design](photo/1.jpeg)
+
 
 gallery.html → Wedding gallery
-## Design
-![Design](photo/1.jpeg)
-## Design
-![Design]![Design](photo/2.jpeg)
-## Design
-![Design]![Design](photo/3.jpeg)
-## Design
-![Design]![Design](photo/4.jpeg)
-## Design
-<<<<<<< HEAD
-![Design]![Design](photo/5.jpeg)
-=======
-![Design](photo/gallery5.jpeg)
->>>>>>> c77ae06a8782e5a4fc3bfa8b22d6a9b74c00490e
 
+![Architecture](images/13.png)
 
 ## Detail Flow
 services.html → Services offered
+## Design
+![Architecture](images/1.jpeg)
+## Design
+![Architecture](images/2.jpeg)
+## Design
+![Architecture](images/3.jpeg)
+## Design
+![Architecture](images/4.jpeg)
+## Design
+![Architecture](images/5.jpeg)
 contact.html → Contact form
 login.html / registration.html → User auth
 payment.html / payment.php → Payment integration
