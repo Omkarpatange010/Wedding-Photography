@@ -116,7 +116,7 @@ gallery.html → Wedding gallery
 ## Design
 ![Design](photo/gallery4.jpeg)
 ## Design
-![Design](photo/gallery6.jpeg)
+![Design](photo/gallery5.jpeg)
 
 
 ## Detail Flow
