@@ -116,7 +116,8 @@ gallery.html → Wedding gallery
 ## Design
 ![Design]![Design](photo/4.jpeg)
 ## Design
-![Design]![Design](photo/5.jpeg)
+
+![Design](photo/5.jpeg)
 
 ![Design](photo/gallery5.jpeg)
 
