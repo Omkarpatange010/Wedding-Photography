@@ -18,42 +18,43 @@ A **Wedding Photography** web application with **frontend UI**, **backend integr
 
 ## 📂 Project Structure
 
-Wedding-Photography/<br>
-├── frontend/<br>
-│   ├── html/<br>
-│   │   ├── home.html<br>
-│   │   ├── gallery.html<br>
-│   │   ├── services.html<br>
-│   │   ├── services1.html<br>
-│   │   ├── services2.html<br>
-│   │   ├── services3.html<br>
-│   │   ├── services4.html<br>
-│   │   ├── services5.html<br>
-│   │   ├── services6.html<br>
-│   │   ├── contact.html<br>
-│   │   ├── login.html<br>
-│   │   ├── registration.html<br>
-│   │   ├── payment.html<br>
-│   │   ├── successPage.html<br>
-│   │   └── review.html<br>
-│   └── css/<br>
-│       │   ├── home.css<br>
+Wedding-Photography/
+├── frontend/
+│   ├── html/
+│   │   ├── home.html
+│   │   ├── gallery.html
+│   │   ├── services.html
+│   │   ├── services1.html
+│   │   ├── services2.html
+│   │   ├── services3.html
+│   │   ├── services4.html
+│   │   ├── services5.html
+│   │   ├── services6.html
+│   │   ├── contact.html
+│   │   ├── login.html
+│   │   ├── registration.html
+│   │   ├── payment.html
+│   │   ├── successPage.html
+│   │   └── review.html
+
+│   └── css/
+│       │   ├── home.css
 │       │   ├── gallery.css
-│       │   ├── services.css<br>
-│       │   ├── contact.css<br>
-│       │   ├── login.css<br>
-│       │   ├── review.css<br>
-│       │   ├── login.css<br>
-│       │   └── style.css<br>
-│       └── images/<br>
-│           ├── mc.png<br>
-│           └── pp.png<br>
-├── backend/<br>
-│   ├── php/<br>
-│   │   ├── contact.php<br>
-│   │   ├── login.php<br>
-│   │   ├── payment.php<br>
-│   │   └── database.php<br>
+│       │   ├── services.css
+│       │   ├── contact.css
+│       │   ├── login.css
+│       │   ├── review.css
+│       │   └── style.css
+│       └── images/
+│           ├── mc.png
+│           └── pp.png
+
+├── backend/
+│   ├── php/
+│   │   ├── contact.php
+│   │   ├── login.php
+│   │   ├── payment.php
+│   │   └── database.php
 └── README.md
 
 
