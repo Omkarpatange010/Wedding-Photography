@@ -128,6 +128,7 @@ services.html → Services offered
 ![Architecture](images/4.jpeg)
 ## Design
 ![Architecture](images/5.jpeg)
+
 contact.html → Contact form
 login.html / registration.html → User auth
 payment.html / payment.php → Payment integration
