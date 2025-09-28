@@ -120,7 +120,7 @@ gallery.html → Wedding gallery
 ![Design]![Design](photo/5.jpeg)
 =======
 ![Design](photo/gallery5.jpeg)
->>>>>>> c77ae06a8782e5a4fc3bfa8b22d6a9b74c00490e
+
 
 
 ## Detail Flow
