@@ -106,7 +106,7 @@ home.html → Homepage
 ## 🏗️ Architecture Diagram  
 (photo/1.jpeg)
 gallery.html → Wedding gallery
-![Design](photo/5.jpeg)
+(photo/1.jpeg)
 
 ![Design](photo/gallery5.jpeg)
 
