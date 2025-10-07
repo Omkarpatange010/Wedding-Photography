@@ -1,4 +1,4 @@
-# 📸 Wedding Photography Website
+## 📸 Wedding Photography Website
 
 A **Wedding Photography** web application with **frontend UI**, **backend integration**, and **database connectivity**, deployed on a **Three-Tier AWS Architecture**.
 
