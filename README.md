@@ -114,7 +114,7 @@ gallery.html → Wedding gallery
 (photo/1.jpeg)
 gallery.html → Wedding gallery
 
-
+Image
 ![Design](photo/gallery5.jpeg)
 ## Detail Flow
 services.html → Services offered
